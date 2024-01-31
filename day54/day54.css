@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+}
+.id{
+    color: violet;
+    font: bold;
+}
+
+#btn{
+    background-color: rgb(228, 95, 95);
+    color: white;
+}
+
+#btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
