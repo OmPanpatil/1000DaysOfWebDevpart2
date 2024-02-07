@@ -1,0 +1,78 @@
+/* 
+css was created by the group of individuals as W3C 
+-World wide web consortium
+css rule consist of a selector and declaration box
+h1{
+    color:red;
+}
+*/
+
+h1{
+    color: purple;
+    background-color: beige;
+    /* animation: heading 5s alternate-reverse 3s 1 right steps(4); */
+
+}
+
+/* 
+Types of selectors::
+
+1. Tag/element selector: 
+h1{
+    color:red;
+}
+combination of selectors and declaration properties
+
+
+2. class selector - html / css
+
+<section>
+<button class="btn">
+Subscribe to thapa technical
+</button>
+</section>
+
+.btn{
+    color:red;
+}
+
+3. ID selector : 
+<section>
+<button id="btn"> 
+Subscribe to thapa technical
+</button>
+</section>
+
+#btn{
+    color:blue;
+}
+
+in class we use dot(.) and in ID we use ash(#).
+
+4. Pseudo class: 
+in this case it uses the anchor tag.
+a:hover{ 
+    color:red;
+    fontweight::-webkit-input-placeholder;
+}
+*/
+
+.para{
+    color: pink;
+}
+
+#btn{
+    background-color: red;
+    color: white;
+
+}
+
+#btn :hover{
+    color: black;
+    background-color: antiquewhite;
+}
+
+a:hover{
+    color: blueviolet;
+    transition-behavior: smooth;
+}
