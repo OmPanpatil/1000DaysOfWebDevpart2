@@ -10,7 +10,7 @@ public class numberisprime {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter a positive integer: ");
             int n = sc.nextInt();
-            boolean isPrime = checkprime(n);
+            checkprime(n);
             int div=2;
             while (div<n) {
                 if (n%div==0) {
