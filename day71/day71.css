@@ -1,0 +1,11 @@
+h1{
+    color: blue;
+}
+
+.id{
+    color: violet;
+    font-weight: bolder;
+    background-origin: padding-box;
+    border-radius: 5;
+    border: 10;
+}
