@@ -6,11 +6,6 @@ public class day100 {
 
 public static void main(String args[]) {
 
- 
-
-// Write code here
-
-//take input
 
 try (Scanner sc = new Scanner(System.in)) {
     char ch = sc.next().charAt(0);
